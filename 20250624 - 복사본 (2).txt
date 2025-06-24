@@ -1,0 +1,63 @@
+filezilla - 서버
+
+주니어에게 권한 부여할 수 있나?===>>특정 디렉토리 지우게? 안된다..
+파일 올리고 
+
+main.html
+main002.html
+===>>
+
+
+깃  깃허브
+git  github
+
+깃 - 깃을 사용할 수 있도록 설치해주는 프로그램
+
+깃허브 - 프로젝트를 진행할 때 
+
+cli 환경 ==>>Command Line Interface
+
+
+nickname email 반드시 기억
+
+new  --->>repository name---->>create repository
+
+open git bash here
+
+
+git config --global user.email knh7532@naver.com
+
+git config --global user.name knh7532
+
+git add . (한칸 띄고 .)
+
+git init
+
+git add . (git init 후 명령어 먹는다.)
+
+git remote add origin https://github.com/knh7532/0624.git (repository 주소 복사)
+(repository를 local 환경과 연결) -원격으로 추가하겠다.
+
+git commit -m "first commit"     commit 분기점 만들겠다. -m make
+(반드시 first commit이라고 적지 않아도 된다.)
+
+
+git push origin master
+
+여기서 창이 뜨면 파란색 버튼 누르고 그대로 따라가준다.
+
+
+바탕화면 전체 화면이 아닌 폴더 하나만 올릴려면 폴더에서 오른쪽 마우스 클릭 후 open git bash here
+
+
+만약 파일이 추가된다면??
+
+이미 리포지토리와 연결되있기 때문에 처음부터 안해도 됨
+
+git add .
+
+git commit -m "second commit"
+
+git push origin master
+
+기존 파일에서 수정이 일어나면 그 수정도 같이 update 된다.
