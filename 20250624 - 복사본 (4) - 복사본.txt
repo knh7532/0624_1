@@ -61,6 +61,3 @@ git commit -m "second commit"
 git push origin master
 
 기존 파일에서 수정이 일어나면 그 수정도 같이 update 된다.
-
-
-에에에에엥
